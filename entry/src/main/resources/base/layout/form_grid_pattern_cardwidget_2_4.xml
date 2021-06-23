@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FFFFFFFF"
+    ohos:orientation="horizontal"
+    ohos:remote="true">
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:weight="1"
+        ohos:orientation="vertical">
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="1"
+            ohos:orientation="horizontal">
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:weight="1"
+                ohos:orientation="vertical"
+                ohos:alignment="center">
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="消耗热量"
+                    ohos:top_margin="5vp"
+                    ohos:text_size="10fp"
+                    ohos:text_weight="500">
+                </Text>
+
+                <Text
+                    ohos:height="60vp"
+                    ohos:width="60vp"
+                    ohos:text="2.1 Kcal"
+                    ohos:text_alignment="center"
+                    ohos:text_color="#1281f0"
+                    ohos:background_element="$media:aa_1"
+                    ohos:text_size="10fp"
+                    ohos:text_weight="500"/>
+            </DirectionalLayout>
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:weight="1"
+                ohos:orientation="vertical"
+                ohos:alignment="center">
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="实时心率"
+                    ohos:top_margin="5vp"
+                    ohos:text_size="10fp"
+                    ohos:text_weight="500">
+                </Text>
+
+                <Text
+                    ohos:height="60vp"
+                    ohos:width="60vp"
+                    ohos:text="99/min"
+                    ohos:text_alignment="center"
+                    ohos:text_color="#1281f0"
+                    ohos:background_element="$media:aa_1"
+                    ohos:text_size="10fp"
+                    ohos:text_weight="500"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+        <DirectionalLayout
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="#1281f0"
+            ohos:alignment="center"
+            ohos:orientation="vertical">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:orientation="horizontal">
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="$string:cardwidget_title"
+                    ohos:text_color="#E5FFFFFF"
+                    ohos:text_size="16fp"
+                    ohos:text_weight="600"/>
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="3350"
+                    ohos:text_color="#E5FFFFFF"
+                    ohos:text_size="16fp"
+                    ohos:text_weight="1000"/>
+            </DirectionalLayout>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:cardwidget_introduction"
+                ohos:text_color="#ffffff"
+                ohos:text_size="14fp"
+                ohos:text_weight="800"
+                ohos:top_margin="7vp"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+    </DirectionalLayout>
+</DirectionalLayout>

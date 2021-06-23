@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "计步器卡片"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "cardwidget_title",
+      "value": "今日步数："
+    },
+    {
+      "name": "cardwidget_introduction",
+      "value": "2021-06-23"
+    }
+  ]
+}

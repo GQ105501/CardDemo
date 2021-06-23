@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:remote="true">
+    <Image
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="#1281f0"
+        ohos:scale_mode="clip_center"/>
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+        <Text
+            ohos:id="$+id:tv_name"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:cardwidget_title"
+            ohos:text_color="#E5FFFFFF"
+            ohos:text_size="16fp"
+            ohos:text_weight="1200"/>
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="3350"
+            ohos:text_color="#E5FFFFFF"
+            ohos:text_size="16fp"
+            ohos:text_weight="1200"/>
+    </DirectionalLayout>
+</DependentLayout>

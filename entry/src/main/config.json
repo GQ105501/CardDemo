@@ -1,0 +1,75 @@
+{
+  "app": {
+    "bundleName": "com.example.carddemo",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.carddemo",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.carddemo.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.carddemo.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard",
+        "formsEnabled": true,
+        "forms": [
+          {
+            "landscapeLayouts": [
+              "$layout:form_grid_pattern_cardwidget_1_2",
+              "$layout:form_grid_pattern_cardwidget_2_2",
+              "$layout:form_grid_pattern_cardwidget_2_4"
+            ],
+            "isDefault": true,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*2",
+            "name": "CardWidget",
+            "description": "This is a CardWidget",
+            "colorMode": "auto",
+            "type": "Java",
+            "supportDimensions": [
+              "1*2",
+              "2*2",
+              "2*4"
+            ],
+            "portraitLayouts": [
+              "$layout:form_grid_pattern_cardwidget_1_2",
+              "$layout:form_grid_pattern_cardwidget_2_2",
+              "$layout:form_grid_pattern_cardwidget_2_4"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          }
+        ]
+      }
+    ]
+  }
+}
